@@ -131,7 +131,9 @@ body {
 }
 
 .back-btn {
-    display: inline-block;
+    display: block;
+    width: fit-content;
+    margin: 0 auto 25px;
     background: #fff;
     color: #ff6b4a;
     border: 1px solid #ff6b4a;
@@ -139,7 +141,6 @@ body {
     padding: 10px 22px;
     font-size: 15px;
     cursor: pointer;
-    margin-bottom: 25px;
 }
 
 .back-btn:hover {
